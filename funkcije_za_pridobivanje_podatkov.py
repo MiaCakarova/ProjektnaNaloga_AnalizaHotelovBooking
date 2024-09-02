@@ -1,3 +1,8 @@
+# Ker Booking Pythonu ne dovoli črpanja HTML vsebine, bomo uporabili Selenium. Ta nam bo pomagal, 
+# da nas bo Booking prepoznal kot navadnega uporabnika. 
+# Nato pa bomo z uporabo BeautifulSoup izčrpali vse želene podatke.
+
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -7,6 +12,11 @@ import time
 from bs4 import BeautifulSoup
 import re
 
+
+# Booking nalaga oglase dinamično, kar pomeni,
+# da ne naloži vseh podatkov naenkrat. Zato se moramo, da bi videli oglase, pomakniti z miško dol po spletni strani in
+# na dnu strani klikniti na gumb 'Naloži več rezultatov'. Spodnja funkcija bo storila ravno to:
+# najprej bo rekla Bookingu naj naloži vse oglase (s pomikanjem in klikanjem na gumb) in po tem bo iz nih črpala lastnosti.
 
 # Da ne bi naenkrat nalagali prevelike vsebine, lahko HTML razdelimo na več delov, ki morajo biti disjunktni 
 # (t.j. noben oglas se ne sme pojaviti v več delih). En takih filtrov, ki ga lahko uporabimo je število zvezdic, saj ne more en hotel imeti 
@@ -41,7 +51,7 @@ def potegni_hotele(url, zvezdice, lokacija):
     time.sleep(5)
     
 
-# Ko je vse naloženo, lahko potegnemo HTML vsebino
+    # Ko je vse naloženo, lahko potegnemo HTML vsebino
     html_vsebina = driver.page_source 
 
     driver.quit()
@@ -62,7 +72,7 @@ def potegni_hotele(url, zvezdice, lokacija):
 
 
 
-# Z zanko se sprehodimo po hotelih in si zapisujemo njihove lastnosti
+    # Z zanko se sprehodimo po hotelih in si zapisujemo njihove lastnosti
     for i in range(len(naslovi_struktura)):
         hotel_ime = naslovi_struktura[i].text
         hotel_cena = cene_struktura[i].text.strip().replace('\xa0', ' ')
