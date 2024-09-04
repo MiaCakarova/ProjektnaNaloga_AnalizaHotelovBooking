@@ -21,3 +21,5 @@ V repozitoriju so vidne vse datoteke, ki sestavljajo projekt. Najprej moramo zag
 Sedaj lahko funkcije uporabimo v notebooku 'pridobivanje_podatkov.ipynb'. Tu lahko uporabnik zamenja povezave v primeru, da želi primerjati druge oz. več lokacij. Ko zaženemo to datoteko, nam Python ustvari csv datoteke 'amsterdam.csv', 'split.csv' in 'lizbona.csv' (te tudi vidimo v repozitoriju).
 
 Zdaj ko so csv datoteke pripravljene, jih lahko analiziramo. To storimo v notebooku 'analiza_podatkov.ipynb'.
+
+Razlaga funkcij in korakov je v datotekah.
