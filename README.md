@@ -1,4 +1,6 @@
 # ANALIZA IN PRIMERJAVA HOTELOV IZ SPLETNE STRANI BOOKING
+Avtor: Mia Čakarova
+Datum: 04.09.2024
 
 ## Uvod
 Pri odločanju kam bi se odpravili na dopust pogosto pomembno vlogo predstavlja prenočišče. Ena najbolj znanih spletnih strani, na kateri rezerviramo nastanitev, je Booking. V tej projektni nalogi sem se odločila analizirati in primerjati izključno hotele v Amsterdamu, Splitu in Lizboni, lokacije so bile izbrane naključno. Da bi bila naloga čim bolj primerna za analizo, sem pri določanju parametrov izbrala, da iščem bivanje za dve osebi (ker je to najbolj pogosto) in samo za eno noč, saj ob izbiri več noči nekateri hoteli ponujajo popuste.
