@@ -27,3 +27,23 @@ Sedaj lahko funkcije uporabimo v notebooku 'pridobivanje_podatkov.ipynb'. Tu lah
 Zdaj ko so csv datoteke pripravljene, jih lahko analiziramo. To storimo v notebooku 'analiza_podatkov.ipynb'.
 
 Razlaga funkcij in korakov je v datotekah.
+
+## Opombe
+V repozitoriju lahko opazimo tudi datoteko .gitignore. V njej so zapisane vse datoteke, ki jih avtor ne želi deliti z uporabniki oz. ki uporabniku niso v pomoč.
+
+Jupyter notebook 'pridobivanje_podatkov.ipynb' je ustvarjen znotraj t.i. virtualnega okolja. Zato ga mora uporabnik aktivirati:
+1. Klonirajte repozitorij (preko konzole ali terminala v VS Code):
+
+git clone https://povezava_do_repozitorija.git
+
+cd pot_do_mape_projekta
+
+2. Aktivirajte virtualno okolje:
+
+python -m venv venv
+source venv/bin/activate     # za Mac/Linux
+venv\Scripts\activate        # za Windows
+
+3. Namestite vse potrebne knjižnice:
+
+pip install -r requirements.txt
