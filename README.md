@@ -1,5 +1,6 @@
 # ANALIZA IN PRIMERJAVA HOTELOV IZ SPLETNE STRANI BOOKING
 Avtor: Mia Čakarova
+
 Datum: 04.09.2024
 
 ## Uvod
