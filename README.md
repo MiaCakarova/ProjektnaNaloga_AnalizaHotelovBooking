@@ -5,9 +5,11 @@ Pri odločanju kam bi se odpravili na dopust pogosto pomembno vlogo predstavlja 
 
 ## Potrebni programi za zagon
 Projekt je izdelan v VS Code (v nadaljevanju VSC), zato je ta potreben za zagon. Uporabljen je jezik Python. 
-Pred uporabo naloge se mora uporabnik prepričati, da ima naloženo najnovejšo verzijo Google Chrome (povezava: https://www.google.com/chrome/) in tudi tej ustrezno različico Chrome Driverja (povezava: https://chromedriver.chromium.org/downloads). To dvoje je pomembno za pravilno delovanje knjižnice Selenium. 
+Pred uporabo naloge se mora uporabnik prepričati, da ima naloženo najnovejšo verzijo Google Chrome (povezava: https://www.google.com/chrome/) in tudi tej ustrezno različico Chrome Driverja (povezava: https://chromedriver.chromium.org/downloads). To dvoje je pomembno za pravilno delovanje knjižnice selenium. 
 Potrebno je tudi naložiti knjižnice: 
 - jupyter; z njim uporabnik lahko odpre t.i. notebooka 'pridobivanje_podatkov.ipynb' in 'analiza_podatkov.ipynb'
 - beautifulsoup4; ta je uporabljena za črpanje želenih podatkov iz html vsebine
 - pandas; z njo manipuliramo tabele
 - matplotlib; tega uporabimo za risanje grafov in diagramov
+Vse omenjene knjižnice mora uporabnik naložiti preko konzole v mapo, kjer bo projekt. To stori tako:
+pot/do/mape> pip install ime_knjižnice
