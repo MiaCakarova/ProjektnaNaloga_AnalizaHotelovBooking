@@ -11,5 +11,6 @@ Potrebno je tudi naložiti knjižnice:
 - beautifulsoup4; ta je uporabljena za črpanje želenih podatkov iz html vsebine
 - pandas; z njo manipuliramo tabele
 - matplotlib; tega uporabimo za risanje grafov in diagramov
+
 Vse omenjene knjižnice mora uporabnik naložiti preko konzole v mapo, kjer bo projekt. To stori tako:
 pot/do/mape> pip install ime_knjižnice
