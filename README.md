@@ -17,5 +17,7 @@ pot/do/mape> pip install ime_knjižnice
 
 ## Vodič za datoteke
 V repozitoriju so vidne vse datoteke, ki sestavljajo projekt. Najprej moramo zagnati datoteko 'funkcije_za_pridobivanje_podatkov.py'. Ta vsebuje funkcijo 'potegni_hotele', ki potegne html vsebino strani in iz nje izčrpa podatke. Za tem zaženemo datoteko 'funkcije_za_csv.py'. Ta vsebuje dve funkciji, ki izčrpane podatke zapišeta v csv datoteko. 
+
 Sedaj lahko funkcije uporabimo v notebooku 'pridobivanje_podatkov.ipynb'. Tu lahko uporabnik zamenja povezave v primeru, da želi primerjati druge oz. več lokacij. Ko zaženemo to datoteko, nam Python ustvari csv datoteke 'amsterdam.csv', 'split.csv' in 'lizbona.csv' (te tudi vidimo v repozitoriju).
+
 Zdaj ko so csv datoteke pripravljene, jih lahko analiziramo. To storimo v notebooku 'analiza_podatkov.ipynb'.
