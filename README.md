@@ -41,7 +41,9 @@ cd pot_do_mape_projekta
 2. Aktivirajte virtualno okolje:
 
 python -m venv venv
+
 source venv/bin/activate     # za Mac/Linux
+
 venv\Scripts\activate        # za Windows
 
 3. Namestite vse potrebne knjižnice:
