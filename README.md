@@ -16,10 +16,11 @@ Poleg seleniuma je potrebno naložiti tudi knjižnice:
 - matplotlib; tega uporabimo za risanje grafov in diagramov
 
 Vse omenjene knjižnice mora uporabnik naložiti preko konzole v mapo, kjer bo projekt. To stori tako:
+
 pot/do/mape> pip install ime_knjižnice
 
 ## Vodič za datoteke
-V repozitoriju so vidne vse datoteke, ki sestavljajo projekt. Najprej moramo zagnati datoteko 'funkcije_za_pridobivanje_podatkov.py'. Ta vsebuje funkcijo 'potegni_hotele', ki potegne html vsebino strani in iz nje izčrpa podatke. Za tem zaženemo datoteko 'funkcije_za_csv.py'. Ta vsebuje dve funkciji, ki izčrpane podatke zapišeta v csv datoteko. 
+V repozitoriju so vidne vse datoteke, ki sestavljajo projekt. Najprej moramo zagnati datoteko 'funkcije_za_pridobivanje_podatkov.py'. Ta vsebuje funkcijo 'potegni_hotele', ki potegne html vsebino strani in iz nje izčrpa podatke. Za tem zaženemo datoteko 'funkcije_za_csv.py'. Ta vsebuje  funkciji 'write_csv' in 'zapisi_v_csv', ki izčrpane podatke zapišeta v csv datoteko. 
 
 Sedaj lahko funkcije uporabimo v notebooku 'pridobivanje_podatkov.ipynb'. Tu lahko uporabnik zamenja povezave v primeru, da želi primerjati druge oz. več lokacij. Ko zaženemo to datoteko, nam Python ustvari csv datoteke 'amsterdam.csv', 'split.csv' in 'lizbona.csv' (te tudi vidimo v repozitoriju).
 
